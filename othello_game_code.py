@@ -2,6 +2,7 @@ import tkinter as tk
 from tkinter import messagebox
 import pygame
 
+
 # Initialize the Pygame mixer once at the start
 pygame.mixer.init()
 
@@ -339,5 +340,6 @@ close_tutorial_button = tk.Button(tutorial_window, text="Close", command=close_t
 close_tutorial_button.pack(side="bottom", pady=20)
 
 root.mainloop()
+
 
 
